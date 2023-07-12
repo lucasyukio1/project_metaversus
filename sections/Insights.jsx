@@ -23,9 +23,7 @@ const Insights = () => (
           <InsightCard key={`insight-${index}`} {...insight} index={index + 1} />
         ))}
       </div>
-
     </motion.div>
-    Insights section
   </section>
 );
 
